@@ -1,5 +1,5 @@
 {% set name = "diptox" %}
-{% set version = "1.0.2" %}
+{% set version = "1.0.3" %}
 {% set python_min = "3.8" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ec79a13aa7550ecaa29407141209e8d07b06c8985a2b157e52333da9c76d6def
+  sha256: 7ac3ebc92c5de93222ada3a9d099a61e7be8fa096368c94b14ec5511c75a248d
 
 build:
   entry_points:
